@@ -15,6 +15,7 @@ Controllers:
 
 Models:
 
+	- tarator.php: website crawler 
 	- backup_dn.php: APIs for backing up the database
 	- comentarii.php: retrievs comments from DB for a specific search
 	- comentarii_model.php: retrieves and stores user comments
@@ -23,7 +24,6 @@ Models:
 	- repara_contact.php: APIs for reclassifying contacts 
 	- repara_locatie.php: reclassifying locations
 	- rezultate.php: main model for searching and displaying results
-	- tarator.php: website crawler 
 
 Views:
 
