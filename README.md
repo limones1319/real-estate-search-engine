@@ -6,13 +6,6 @@ The search engine uses Sphinx Search for faster queries. The data from Mysql dat
 
 The application is structured as a MVC.
 
-Controllers:
-	
-	- comentarii.php: controller for displaying and storing user comments.
-	- contact.php: This is a contact form.
-	- dm.php: This is the main controller that is displaying the first page, searching results, displaying price charts, and logging
-	- fintern.php: This is a backend controller to display and test crawled pages
-
 Models:
 
 	- tarator.php: website crawler 
@@ -24,6 +17,13 @@ Models:
 	- repara_contact.php: APIs for reclassifying contacts 
 	- repara_locatie.php: reclassifying locations
 	- rezultate.php: main model for searching and displaying results
+
+Controllers:
+	
+	- comentarii.php: controller for displaying and storing user comments.
+	- contact.php: This is a contact form.
+	- dm.php: This is the main controller that is displaying the first page, searching results, displaying price charts, and logging
+	- fintern.php: This is a backend controller to display and test crawled pages
 
 Views:
 
