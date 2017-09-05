@@ -9,6 +9,7 @@ The application is structured as a MVC.
 Models:
 
 	- tarator.php: website crawler 
+	- rezultate.php: main model for searching and displaying results
 	- backup_dn.php: APIs for backing up the database
 	- comentarii.php: retrievs comments from DB for a specific search
 	- comentarii_model.php: retrieves and stores user comments
@@ -16,7 +17,6 @@ Models:
 	- lansator.php: crawler thread launcher
 	- repara_contact.php: APIs for reclassifying contacts 
 	- repara_locatie.php: reclassifying locations
-	- rezultate.php: main model for searching and displaying results
 
 Controllers:
 	
