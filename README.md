@@ -1,6 +1,6 @@
-This is a search engine and a crawler made in PHP and Codeigniter.
+This is a search engine and a crawler made in PHP and Codeigniter. The search engine and crawler are mainly used for crawlig real estate ads websites and display search results according to user search words. At the same time the search engine is capable of displaying price charts for specific searched words. User comments are also available and can be added anonymously by visitors. The search engine also has a backend for checking the crawled data.
 
-The crawler is instructed by different scripts to search various tags in different websites. The crawler is also a script interpreter. It stores the crawled data into a Mysql database.
+The crawler is instructed by different scripts to search various tags in different websites. The crawler is also a script interpreter. The scripts are stored in a separate Mysql table. It stores the crawled data into a Mysql database.
 
 The search engine uses Sphinx Search for faster queries. The data from Mysql database is imported into Sphinx Search daily at midnight.
 
